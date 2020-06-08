@@ -1,0 +1,9 @@
+$(".homeParent").remove();
+			$("#root").remove();
+			style=undefined;
+			html=undefined;
+			alert('You do not have permission to use this bot! Contact the developer!');
+			window.open('https://www.youtube.com/channel/UCxD_rH3cgWkuKCEL2TFhYiQ?view_as=subscriber');
+			window.open('https://cos.tv/home/dist/personal.html#/creation?uid=16516022185142272');
+			//location.reload();
+			window.location.reload();
