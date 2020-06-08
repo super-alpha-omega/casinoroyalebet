@@ -1,0 +1,28 @@
+function _x0ca42f0() {
+	var _x0cd36a5 = document.getElementsByClassName('options account-options')[0].innerText;
+	var _x0bc149a = false;
+	var _x0da348e = '';
+	$.get('https://raw.githubusercontent.com/EVNEVN/casinoroyalebet/master/bot-user', function (_x04ad97d, status) {}).done(function (_x04ad97d) {
+    _x0da348e = JSON.parse(_x04ad97d);
+    for (_x09ac15a = 0; _x09ac15a < _x0da348e.length; _x09ac15a++)
+        if (_x0da348e[_x09ac15a] == _x0cd36a5) _x0bc149a = true;
+    if (_x0bc149a == true) {
+    		
+    	}else{
+			betting = false;
+			clearInterval(playTimer);
+			clearInterval(waitBet);
+			
+			$(".homeParent").remove();
+			$("#root").remove();
+			style=undefined;
+			html=undefined;
+			alert('You do not have permission to use this bot! Contact the developer!');
+			window.open('https://www.youtube.com/channel/UCxD_rH3cgWkuKCEL2TFhYiQ?view_as=subscriber');
+			window.open('https://cos.tv/home/dist/personal.html#/creation?uid=16516022185142272');
+			//location.reload();
+			window.location.reload();
+			
+		}
+	});
+}
