@@ -1,0 +1,12 @@
+function _x029cd1f() {
+	var _x013fd56 = document.getElementsByClassName('options account-options')[0].innerText;
+	var _x0ac036c = false;
+	var _x0be29aa = '';
+	$.get('https://raw.githubusercontent.com/EVNEVN/casinoroyalebet/master/bot-user', function (_x030ccdf, status) {}).done(function (_x030ccdf) {
+    _x0be29aa = JSON.parse(_x030ccdf);
+    for (_x096cde0 = 0; _x096cde0 < _x0be29aa.length; _x096cde0++)
+        if (_x0be29aa[_x096cde0] == _x013fd56) _x0ac036c = true;
+    if (_x0ac036c == true) return true;
+    else return false;
+});
+}
